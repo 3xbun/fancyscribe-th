@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: "DB Helvethaica";
+	src: url("/fonts/DB Helvethaica X Cond v3.2.ttf");
+}
+
+@font-face {
+	font-family: "DB Helvethaica";
+	src: url("/fonts/DB Helvethaica X Bd Condv 3.2.ttf");
+	font-weight: bold;
+}
+
+
 @layer base {
 	:root {
-		font-family: "Noto Sans", sans-serif, Inter, system-ui, Avenir, Helvetica,
-			Arial, sans-serif;
+		font-family: 'DB Helvethaica';
 		line-height: 1.5;
 		font-weight: 400;
-		font-size: 13px;
+		font-size: 20px;
 
 		color-scheme: light dark;
 		color: #111113;
@@ -25,16 +38,19 @@
 		--size-32: 32px;
 	}
 
+
 	@font-face {
 		font-family: "ConduitITCStd";
 		src: url("/fonts/ConduitITCStd ExtraBold.woff2") format("woff2");
 		font-weight: 800;
 	}
+
 	@font-face {
 		font-family: "ConduitITCStd";
 		src: url("/fonts/ConduitITCStd Bold.woff2") format("woff2");
 		font-weight: 700;
 	}
+
 	@font-face {
 		font-family: "ConduitITCStd";
 		src: url("/fonts/ConduitITCStd-Regular.woff2") format("woff2");
@@ -52,6 +68,7 @@
 		color: #646cff;
 		text-decoration: inherit;
 	}
+
 	a:hover {
 		color: #535bf2;
 	}
@@ -79,11 +96,13 @@
 		cursor: pointer;
 		transition: border-color 0.25s;
 	}
+
 	button:hover,
 	.button:hover {
 		border-color: var(--primary-color);
 		background-color: var(--primary-color-transparent);
 	}
+
 	button:focus,
 	button:focus-visible,
 	.button:focus,
@@ -194,6 +213,7 @@
 	}
 
 	@media print {
+
 		.print-display-none,
 		.print-display-none * {
 			display: none !important;
