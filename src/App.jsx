@@ -202,7 +202,7 @@ function App() {
 				>
 					<div className="th-flag">
 						<p>FancyScribe TH</p>
-						<img src="https://vectorflags.s3.amazonaws.com/flags/th-circle-01.png" />
+						<img src="/favicons/android-chrome-512x512.png" />
 					</div>
 					<span
 						style={{
