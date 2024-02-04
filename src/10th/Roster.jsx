@@ -177,7 +177,7 @@ const Unit = ({ unit, index, catalog, onePerPage, forceRules }) => {
 				<span className="print-display-none">Don't print this card.</span>
 			</label>
 			<div
-				className="min-h-[15rem]"
+				className="min-h-[10rem]"
 				style={{
 					padding: "24px 0",
 					paddingBottom: 24,
