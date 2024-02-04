@@ -115,7 +115,7 @@ function App() {
 				setEdition(9);
 				setError("");
 			}
-		} else if (gameType == "Warhammer 40,000 10th Edition") {
+		} else if (gameType == "Warhammer 40,000 10th Edition TH") {
 			roster = Create40kRoster10th(doc, gameType);
 			if (roster && roster.forces.length > 0) {
 				setRoster(roster);
