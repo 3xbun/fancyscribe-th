@@ -68,7 +68,7 @@ function App() {
 			setRoster(roster);
 			setEdition(9);
 			setError("");
-		} else if (roster.gameType == "Warhammer 40,000 10th Edition") {
+		} else if (roster.gameType == "Warhammer 40,000 10th Edition TH") {
 			setRoster(roster);
 			setEdition(10);
 			setError("");
