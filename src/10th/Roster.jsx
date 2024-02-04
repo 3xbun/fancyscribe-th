@@ -237,7 +237,7 @@ const Unit = ({ unit, index, catalog, onePerPage, forceRules }) => {
 					<div
 						style={{
 							fontFamily: "ConduitITCStd",
-							fontSize: "2.5em",
+							fontSize: "1.8em",
 							letterSpacing: ".1px",
 							lineHeight: "1",
 							fontWeight: 800,
@@ -474,7 +474,8 @@ const ModelStats = ({ modelStat, index, showName, modelList }) => {
 				{showWeapons && (
 					<div
 						style={{
-							fontSize: "1em",
+							fontFamily: "ConduitITCStd",
+							fontSize: ".8em",
 						}}
 					>
 						{modelList.map((model, index) => (
@@ -629,8 +630,9 @@ const Abilities = ({ abilities }) => {
 					<div
 						key={ability}
 						style={{
-							fontSize: ".8em",
-							lineHeight: 1.2,
+							fontFamily: "DB Helvethaica",
+							fontSize: ".9em",
+							lineHeight: 1,
 						}}
 					>
 						<span style={{ fontWeight: 700 }}>{ability}:</span>{" "}
@@ -647,7 +649,7 @@ const Characteristic = ({ title, characteristic, index }) => {
 			style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
 		>
 			{index === 0 && (
-				<div style={{ fontSize: ".9em", fontWeight: 800 }}>{title}</div>
+				<div style={{ fontSize: "1em", fontWeight: 800 }}>{title}</div>
 			)}
 			<FancyBox>{characteristic}</FancyBox>
 		</div>
@@ -667,6 +669,7 @@ const FancyBox = ({ children }) => {
 		>
 			<div
 				style={{
+					fontFamily: "ConduitITCStd",
 					minWidth: "3rem",
 					minHeight: "3rem",
 					display: "flex",
@@ -677,7 +680,7 @@ const FancyBox = ({ children }) => {
 						"polygon(10% 0, 100% 0, 100% 20%, 100% 90%, 90% 100%, 20% 100%, 0 100%, 0 10%)",
 					padding: 3,
 					fontSize: "2em",
-					fontWeight: 800,
+					fontWeight: 700,
 				}}
 			>
 				{children}
@@ -713,7 +716,7 @@ const OtherAbilities = ({ abilities }) => {
 								key={name}
 								style={{
 									fontSize: ".9em",
-									lineHeight: 1.2,
+									lineHeight: 1,
 									textAlign: "left",
 									paddingTop: 4,
 									paddingBottom: 4,
@@ -767,7 +770,7 @@ const ForceRules = ({ rules, onePerPage }) => {
 					<div
 						key={rule}
 						style={{
-							lineHeight: 1.2,
+							lineHeight: 1,
 						}}
 					>
 						<span style={{ fontWeight: 700 }}>{rule}:</span> {rules.get(rule)}
