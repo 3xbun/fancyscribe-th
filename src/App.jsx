@@ -200,7 +200,10 @@ function App() {
 						flexDirection: "column",
 					}}
 				>
-					FancyScribe{" "}
+					<div className="th-flag">
+						<p>FancyScribe TH</p>
+						<img src="https://vectorflags.s3.amazonaws.com/flags/th-circle-01.png" />
+					</div>
 					<span
 						style={{
 							fontSize: "0.8rem",

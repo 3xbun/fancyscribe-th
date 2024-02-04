@@ -212,6 +212,16 @@
 		break-after: page;
 	}
 
+	.th-flag {
+		display: flex;
+		align-items: center;
+		gap: .5rem;
+	}
+
+	.th-flag img {
+		height: 1em;
+	}
+
 	@media print {
 
 		.print-display-none,
