@@ -474,7 +474,7 @@ const ModelStats = ({ modelStat, index, showName, modelList }) => {
 				{showWeapons && (
 					<div
 						style={{
-							fontSize: "0.7em",
+							fontSize: "1em",
 						}}
 					>
 						{modelList.map((model, index) => (
@@ -630,7 +630,7 @@ const Abilities = ({ abilities }) => {
 						key={ability}
 						style={{
 							fontSize: ".8em",
-							lineHeight: 1.4,
+							lineHeight: 1.2,
 						}}
 					>
 						<span style={{ fontWeight: 700 }}>{ability}:</span>{" "}
@@ -676,7 +676,7 @@ const FancyBox = ({ children }) => {
 					clipPath:
 						"polygon(10% 0, 100% 0, 100% 20%, 100% 90%, 90% 100%, 20% 100%, 0 100%, 0 10%)",
 					padding: 3,
-					fontSize: "1.6em",
+					fontSize: "2em",
 					fontWeight: 800,
 				}}
 			>
@@ -713,7 +713,7 @@ const OtherAbilities = ({ abilities }) => {
 								key={name}
 								style={{
 									fontSize: ".9em",
-									lineHeight: 1.4,
+									lineHeight: 1.2,
 									textAlign: "left",
 									paddingTop: 4,
 									paddingBottom: 4,
@@ -767,7 +767,7 @@ const ForceRules = ({ rules, onePerPage }) => {
 					<div
 						key={rule}
 						style={{
-							lineHeight: 1.4,
+							lineHeight: 1.2,
 						}}
 					>
 						<span style={{ fontWeight: 700 }}>{rule}:</span> {rules.get(rule)}
