@@ -192,7 +192,7 @@ function App() {
 		>
 			<div className="header print-display-none">
 				<a
-					href="/fancyscribe"
+					href="/fancyscribe-th"
 					style={{
 						color: "#fff",
 						fontWeight: 800,
